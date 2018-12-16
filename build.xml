@@ -1,0 +1,34 @@
+<project name="apparel-organiser" default="dist" basedir=".">
+    <description>
+        "Apparel Organiser" 1.0 mod for RimWorld
+    </description>
+
+    <property name="src" location="${ant.project.name}"/>
+    <property name="dist" location="dist"/>
+    <property name="mods" location="/home/keller/.steam/steam/steamapps/common/RimWorld/Mods"/>
+
+    <target name="init">
+        <tstamp/>
+    </target>
+
+    <target name="dist" depends="clean">
+        <mkdir dir="${dist}/${ant.project.name}"/>
+        <copy todir="${dist}/${ant.project.name}">
+            <fileset dir="${src}"/>
+        </copy>
+    </target>
+
+    <target name="install" depends="dist,clean-mod">
+        <copy todir="${mods}">
+            <fileset dir="${dist}"/>
+        </copy>
+    </target>
+
+    <target name="clean">
+        <delete dir="${dist}"/>
+    </target>
+
+    <target name="clean-mod">
+        <delete dir="${mods}/${ant.project.name}"/>
+    </target>
+</project>

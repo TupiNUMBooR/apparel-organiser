@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>Civilian_Apparel</defName>
+        <label>Civilian Apparel</label>
+        <parent>Apparel</parent>
+    </ThingCategoryDef>
+	
+		<ThingCategoryDef>
+			<defName>Hats</defName>
+			<label>Hats</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+		
+			<ThingCategoryDef>
+				<defName>Goggles</defName>
+				<label>Goggles</label>
+				<parent>Hats</parent>
+			</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Masks</defName>
+			<label>Masks</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Civilian_Apparel_Handwear</defName>
+			<label>Handwear</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Civilian_Apparel_Footwear</defName>
+			<label>Footwear</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Civilian_Apparel_Accessories</defName>
+			<label>Accessories</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>	
+
+		<ThingCategoryDef>
+			<defName>Civilian_Apparel_Innerlayers</defName>
+			<label>Innerlayers</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Civilian_Apparel_Outerlayers</defName>
+			<label>Outerlayers</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Civilian_Apparel_Straightjacket</defName>
+			<label>Straightjacket</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Civilian_Apparel_Fallout</defName>
+			<label>Fallout Protection</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+
+	<ThingCategoryDef>
+        <defName>Combat_Apparel</defName>
+        <label>Combat Apparel</label>
+        <parent>Apparel</parent>
+    </ThingCategoryDef>
+	
+		<ThingCategoryDef>
+			<defName>Helmets</defName>
+			<label>Helmets</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Combat_Apparel_Handwear</defName>
+			<label>Handwear</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Combat_Apparel_Footwear</defName>
+			<label>Footwear</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Combat_Apparel_Accessories</defName>
+			<label>Accessories</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>	
+		
+		<ThingCategoryDef>
+			<defName>Shoulder_Armor</defName>
+			<label>Shoulderpads</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Body_Armor</defName>
+			<label>Body Armor</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Leg_Armor</defName>
+			<label>Leg Armor</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>ExoHelmets</defName>
+			<label>ExoHelmets</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>		
+		
+		<ThingCategoryDef>
+			<defName>ExoSuits</defName>
+			<label>ExoSuits</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+        <defName>Special_Apparel</defName>
+        <label>Special Apparel</label>
+        <parent>Apparel</parent>
+    </ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Special_Apparel_Hats</defName>
+			<label>Hats</label>
+			<parent>Special_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Special_Apparel_Handwear</defName>
+			<label>Handwear</label>
+			<parent>Special_Apparel</parent>
+		</ThingCategoryDef>
+
+	<ThingCategoryDef>
+        <defName>Star_Wars_Apparel</defName>
+        <label>Star Wars Apparel</label>
+        <parent>Apparel</parent>
+    </ThingCategoryDef>
+	
+		<ThingCategoryDef>
+			<defName>Star_Wars_Hoods</defName>
+			<label>Hoods</label>
+			<parent>Star_Wars_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Star_Wars_Robes</defName>
+			<label>Robes</label>
+			<parent>Star_Wars_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Star_Wars_Hats</defName>
+			<label>Hats</label>
+			<parent>Star_Wars_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Star_Wars_Uniforms</defName>
+			<label>Uniforms</label>
+			<parent>Star_Wars_Apparel</parent>
+		</ThingCategoryDef>
+		
+			<ThingCategoryDef>
+				<defName>Star_Wars_Jackets</defName>
+				<label>Jackets</label>
+				<parent>Star_Wars_Uniforms</parent>
+			</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Star_Wars_Helmets</defName>
+			<label>Helmets</label>
+			<parent>Star_Wars_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Star_Wars_Armors</defName>
+			<label>Armors</label>
+			<parent>Star_Wars_Apparel</parent>
+		</ThingCategoryDef>
+		
+	<ThingCategoryDef>
+        <defName>Tiberium_Rim_Apparel</defName>
+        <label>Tiberium Rim Apparel</label>
+        <parent>Apparel</parent>
+    </ThingCategoryDef>
+	
+		<ThingCategoryDef>
+			<defName>Tiberium_Rim_Hats</defName>
+			<label>Hats</label>
+			<parent>Tiberium_Rim_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Tiberium_Rim_Masks</defName>
+			<label>Masks</label>
+			<parent>Tiberium_Rim_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Tiberium_Rim_Suits</defName>
+			<label>Suits</label>
+			<parent>Tiberium_Rim_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Tiberium_Rim_Helmets</defName>
+			<label>Helmets</label>
+			<parent>Tiberium_Rim_Apparel</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+			<defName>Tiberium_Rim_Armors</defName>
+			<label>Armors</label>
+			<parent>Tiberium_Rim_Apparel</parent>
+		</ThingCategoryDef>
+		
+	
+</Defs>
