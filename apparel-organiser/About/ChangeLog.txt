@@ -72,3 +72,10 @@ B18 v2.0
 1.0 v2.1
 (Updated 12/09/18) Updated to 1.0. Added Flak Pants, Flak Jacket and Plate Armor
 
+1.0 v2.2 (2018.12.17)
+Create category "Special".
+Change category names to make it easy to see.
+Add  Androids - https://steamcommunity.com/sharedfiles/filedetails/?id=1541064015
+Add  Combat Extended - https://steamcommunity.com/sharedfiles/filedetails/?id=1566879080
+Add  Combat Extended: Shields - https://steamcommunity.com/sharedfiles/filedetails/?id=1586351220
+Add  Hand 'n' Footwear - https://steamcommunity.com/sharedfiles/filedetails/?id=1502703299

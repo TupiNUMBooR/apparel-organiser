@@ -3,7 +3,7 @@
 
     <ThingCategoryDef>
         <defName>Civilian_Apparel</defName>
-        <label>Civilian Apparel</label>
+        <label>[Civilian Apparel]</label>
         <parent>Apparel</parent>
     </ThingCategoryDef>
 	
@@ -22,6 +22,18 @@
 		<ThingCategoryDef>
 			<defName>Masks</defName>
 			<label>Masks</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Civilian_Apparel_Handwear</defName>
+			<label>Handwear</label>
+			<parent>Civilian_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Civilian_Apparel_Footwear</defName>
+			<label>Footwear</label>
 			<parent>Civilian_Apparel</parent>
 		</ThingCategoryDef>
 		
@@ -57,7 +69,7 @@
 
 	<ThingCategoryDef>
         <defName>Combat_Apparel</defName>
-        <label>Combat Apparel</label>
+        <label>[Combat Apparel]</label>
         <parent>Apparel</parent>
     </ThingCategoryDef>
 	
@@ -67,6 +79,18 @@
 			<parent>Combat_Apparel</parent>
 		</ThingCategoryDef>
 
+		<ThingCategoryDef>
+			<defName>Combat_Apparel_Handwear</defName>
+			<label>Handwear</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Combat_Apparel_Footwear</defName>
+			<label>Footwear</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+		
 		<ThingCategoryDef>
 			<defName>Combat_Apparel_Accessories</defName>
 			<label>Accessories</label>
@@ -95,7 +119,19 @@
 			<defName>ExoHelmets</defName>
 			<label>ExoHelmets</label>
 			<parent>Combat_Apparel</parent>
-		</ThingCategoryDef>		
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Combat_Apparel_ExoHandwear</defName>
+			<label>ExoHandwear</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Combat_Apparel_ExoFootwear</defName>
+			<label>ExoFootwear</label>
+			<parent>Combat_Apparel</parent>
+		</ThingCategoryDef>
 		
 		<ThingCategoryDef>
 			<defName>ExoSuits</defName>
@@ -103,6 +139,42 @@
 			<parent>Combat_Apparel</parent>
 		</ThingCategoryDef>
 	
+	<ThingCategoryDef>
+        <defName>Special_Apparel</defName>
+        <label>[Special Apparel]</label>
+        <parent>Apparel</parent>
+    </ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Special_Apparel_Hats</defName>
+			<label>Hats</label>
+			<parent>Special_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Special_Apparel_Handwear</defName>
+			<label>Handwear</label>
+			<parent>Special_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Special_Apparel_Outerlayers</defName>
+			<label>Outerlayers</label>
+			<parent>Special_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Special_Apparel_Accessories</defName>
+			<label>Accessories</label>
+			<parent>Special_Apparel</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+			<defName>Shields</defName>
+			<label>Shields</label>
+			<parent>Special_Apparel</parent>
+		</ThingCategoryDef>
+
 	<ThingCategoryDef>
         <defName>Star_Wars_Apparel</defName>
         <label>Star Wars Apparel</label>
