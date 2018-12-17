@@ -5896,11 +5896,9 @@
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparel_DexterousGloves"]</xpath>
+				<xpath>*/ThingDef[defName = "Apparel_DexterousGloves"]/thingCategories</xpath>
 				<value>
-					<thingCategories>
-						<li>Special_Apparel_Handwear</li>
-					</thingCategories>
+					<li>Special_Apparel_Handwear</li>
 				</value>
 			</li>
 		</operations>

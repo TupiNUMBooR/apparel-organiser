@@ -177,7 +177,7 @@
 
 	<ThingCategoryDef>
         <defName>Star_Wars_Apparel</defName>
-        <label>Star Wars Apparel</label>
+        <label>[Star Wars Apparel]</label>
         <parent>Apparel</parent>
     </ThingCategoryDef>
 	
@@ -225,7 +225,7 @@
 		
 	<ThingCategoryDef>
         <defName>Tiberium_Rim_Apparel</defName>
-        <label>Tiberium Rim Apparel</label>
+        <label>[Tiberium Rim Apparel]</label>
         <parent>Apparel</parent>
     </ThingCategoryDef>
 	
