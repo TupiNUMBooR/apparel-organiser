@@ -527,13 +527,22 @@
 				<xpath>/ThingDef[defName = "Apparello_Zorro"]</xpath>
 				<success>Invert</success>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparello_Zorro"]</xpath>
-				<value>
-					<thingCategories>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName = "Apparello_Zorro"]/thingCategories</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Apparello_Zorro"]/thingCategories</xpath>
+					<value>
 						<li>Hats</li>
-					</thingCategories>
-				</value>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Apparello_Zorro"]</xpath>
+					<value>
+						<thingCategories>
+							<li>Hats</li>
+						</thingCategories>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>
@@ -1351,13 +1360,22 @@
 				<xpath>/ThingDef[defName = "Apparel_Psymask"]</xpath>
 				<success>Invert</success>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparel_Psymask"]</xpath>
-				<value>
-					<thingCategories>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName = "Apparel_Psymask"]/thingCategories</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Apparel_Psymask"]/thingCategories</xpath>
+					<value>
 						<li>Masks</li>
-					</thingCategories>
-				</value>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Apparel_Psymask"]</xpath>
+					<value>
+						<thingCategories>
+							<li>Masks</li>
+						</thingCategories>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>
@@ -1368,13 +1386,22 @@
 				<xpath>/ThingDef[defName = "Apparello_Footy"]</xpath>
 				<success>Invert</success>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparello_Footy"]</xpath>
-				<value>
-					<thingCategories>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName = "Apparello_Footy"]/thingCategories</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Apparello_Footy"]/thingCategories</xpath>
+					<value>
 						<li>Masks</li>
-					</thingCategories>
-				</value>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Apparello_Footy"]</xpath>
+					<value>
+						<thingCategories>
+							<li>Masks</li>
+						</thingCategories>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>
@@ -3040,6 +3067,41 @@
 	</Operation>
 	<!--============================== Combat Apparel ==============================-->
 	<!--============================== Helmets: Vanilla ==============================-->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Apparel_SimpleHelmet"]/thingCategories</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Apparel_SimpleHelmet"]/thingCategories</xpath>
+			<value>
+				<li>Helmets</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Apparel_SimpleHelmet"]</xpath>
+			<value>
+				<thingCategories>
+					<li>Helmets</li>
+				</thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Apparel_AdvancedHelmet"]/thingCategories</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Apparel_AdvancedHelmet"]/thingCategories</xpath>
+			<value>
+				<li>Helmets</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Apparel_AdvancedHelmet"]</xpath>
+			<value>
+				<thingCategories>
+					<li>Helmets</li>
+				</thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	<!--
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/ThingDef[defName = "Apparel_SimpleHelmet"]</xpath>
 		<value>
@@ -3056,6 +3118,7 @@
 			</thingCategories>
 		</value>
 	</Operation>
+	-->
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/ThingDef[defName = "Apparel_WarMask"]</xpath>
 		<value>
@@ -3302,13 +3365,22 @@
 				<xpath>/ThingDef[defName = "Apparello_Doom"]</xpath>
 				<success>Invert</success>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparello_Doom"]</xpath>
-				<value>
-					<thingCategories>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName = "Apparello_Doom"]/thingCategories</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Apparello_Doom"]/thingCategories</xpath>
+					<value>
 						<li>Helmets</li>
-					</thingCategories>
-				</value>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Apparello_Doom"]</xpath>
+					<value>
+						<thingCategories>
+							<li>Helmets</li>
+						</thingCategories>
+					</value>
+				</nomatch>
 			</li>
 		</operations>
 	</Operation>
@@ -4110,6 +4182,24 @@
 		</operations>
 	</Operation>
 	<!--============================== ExoHelmets: Vanilla ==============================-->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/thingCategories</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/thingCategories</xpath>
+			<value>
+				<li>ExoHelmets</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]</xpath>
+			<value>
+				<thingCategories>
+					<li>ExoHelmets</li>
+				</thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	<!--
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/ThingDef[defName = "Apparel_PowerArmorHelmet"]</xpath>
 		<value>
@@ -4118,6 +4208,7 @@
 			</thingCategories>
 		</value>
 	</Operation>
+	-->
 	<!--============================== ExoHelmets: High Tech Laboratory Facilities ==============================-->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>

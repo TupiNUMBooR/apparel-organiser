@@ -79,3 +79,10 @@ Add  Androids - https://steamcommunity.com/sharedfiles/filedetails/?id=154106401
 Add  Combat Extended - https://steamcommunity.com/sharedfiles/filedetails/?id=1566879080
 Add  Combat Extended: Shields - https://steamcommunity.com/sharedfiles/filedetails/?id=1586351220
 Add  Hand 'n' Footwear - https://steamcommunity.com/sharedfiles/filedetails/?id=1502703299
+
+1.0 v2.3 (2019.02.27)
+Fix compatibility with Medieval Times (Remove helmets error)
+
+1.0 v2.4 (2019.03.23)
+Fix compatibility with Apparello (Remove 4 helmets error)
+
