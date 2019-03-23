@@ -3,4 +3,6 @@
     <identifier>ApparelOrganiser</identifier>
     <version>2.4</version>
     <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://raw.githubusercontent.com/TupiNUMBooR/apparel-organiser/master/apparel-organiser/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/TupiNUMBooR/apparel-organiser/releases/latest</downloadUri>
 </Manifest>
